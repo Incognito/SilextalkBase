@@ -1,0 +1,21 @@
+{
+    "name": "incognito/silextalk-base",
+    "description": "This is a repo used as sample code for a talk about silex",
+    "license": "MIT",
+    "version": "0.1.1",
+    "authors": [
+        {
+            "name": "Brian Graham",
+            "email": "drakain@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Incognito\\SilextalkBase\\": "src/Incognito/SilextalkBase" }
+    },
+    "require": {
+        "symfony/yaml": "~2.6",
+        "symfony/validator": "~2.6",
+        "egulias/email-validator": "~1.2",
+        "swiftmailer/swiftmailer": "~5.4"
+    }
+}
